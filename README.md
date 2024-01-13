@@ -1,6 +1,9 @@
 
 # Hybrid Recommendation System using Spark (using both context and collaborative filtering).
 
+## Implementation : 
+Run the following command in terminal : python3 competition.py
+
 ## The code extracts features from several json files to predict user ratings on new businesses apart from the most common features like user’s average rating, business review count, business’s average rating etc. 
 
 1.	A feature I added is business_rivalry score, I first grouped the businesses by the postal codes. After this, I grouped the businesses based on zipcode and accordingly set the rivalry score of the business as in if a business is in a famous place, its rivalry score is high. 
